@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="MainMenuSelector.uss" />
+    <ui:VisualElement name="screen" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:Button text="Start" display-tooltip-when-elided="true" name="start-button" style="position: absolute; top: 50%;" />
+        <ui:VisualElement name="label-container" style="position: absolute; top: 15%; align-items: center; justify-content: center;">
+            <ui:Label text="Neon Cloud" display-tooltip-when-elided="true" name="title-label" class="logo-label" style="font-size: 76px; -unity-font-style: bold; -unity-font: url(&apos;/Assets/UI Toolkit/Resources/Fonts &amp; Materials/LiberationSans.ttf&apos;); color: rgba(255, 0, 128, 255);" />
+        </ui:VisualElement>
+        <ui:Button text="Exit&#10;" display-tooltip-when-elided="true" name="exit-button" style="top: 30%;" />
+    </ui:VisualElement>
+</ui:UXML>

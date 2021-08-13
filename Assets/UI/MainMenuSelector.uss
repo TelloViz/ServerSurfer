@@ -1,0 +1,23 @@
+.unity-button {
+    width: 10%;
+    height: 10%;
+    background-color: rgb(113, 36, 168);
+    font-size: 29px;
+    -unity-font-style: bold;
+    -unity-font: resource('Fonts & Materials/LiberationSans');
+    color: rgb(255, 255, 255);
+}
+
+.logo-label {
+    color: rgb(184, 109, 255);
+}
+
+.unity-button:hover {
+    width: 10%;
+    height: 10%;
+    background-color: rgb(168, 36, 128);
+    font-size: 29px;
+    -unity-font-style: bold;
+    -unity-font: resource('Fonts & Materials/LiberationSans');
+    color: rgb(255, 255, 255);
+}
