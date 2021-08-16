@@ -5,7 +5,7 @@ using UnityEngine;
 namespace SO.Variables
 {
 
-    [CreateAssetMenu]
+    [CreateAssetMenu(fileName = "IntVariable", menuName = "Vars/Int")]
     public class IntVariable : ScriptableObject
     {
         [SerializeField] private int value;

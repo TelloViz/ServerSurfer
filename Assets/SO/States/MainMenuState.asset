@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5036be5251e35f1429d5cc38b93f1317, type: 3}
-  m_Name: PlayingStateString
+  m_Script: {fileID: 11500000, guid: 631a1a84c8f46a844b1e2e306aacc2b9, type: 3}
+  m_Name: MainMenuState
   m_EditorClassIdentifier: 
-  value: PlayingState
+  name: {fileID: 11400000, guid: 6866a12d832e124479a728ed93f760a8, type: 2}
+  reachableStates: []

@@ -5,7 +5,7 @@ using UnityEngine;
 namespace SO.Variables
 {
 
-    [CreateAssetMenu]
+    [CreateAssetMenu(fileName = "FloatVariable", menuName = "Vars/Float")]
     public class FloatVariable : ScriptableObject
     {
         private float value;

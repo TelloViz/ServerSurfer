@@ -2,10 +2,10 @@ using System;
 using UnityEngine;
 using Vast.StateMachine;
 
-namespace States.GameStates
+namespace SO.States.GameStates
 {
-    [CreateAssetMenu]
-    public class MainMenuState : State
+    [CreateAssetMenu(fileName = "GameOverState", menuName = "States/Game Over State")]
+    public class GameOverState : State
     {
         #region Class Methods
         public override void OnEnter() { }

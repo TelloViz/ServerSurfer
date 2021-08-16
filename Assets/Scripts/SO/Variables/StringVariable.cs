@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace SO.Variables
 {
-    [CreateAssetMenu]
+    [CreateAssetMenu(fileName = "StringVariable", menuName = "Vars/String")]
     public class StringVariable : ScriptableObject
     {
         [SerializeField] private string value;

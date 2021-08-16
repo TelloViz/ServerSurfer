@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6138043fb61a91a4fbc50a250ec15e49, type: 3}
-  m_Name: AppManager
+  m_Script: {fileID: 11500000, guid: 5036be5251e35f1429d5cc38b93f1317, type: 3}
+  m_Name: MainMenuStateName
   m_EditorClassIdentifier: 
-  initialState: {fileID: 11400000, guid: e68266f1cdc00834c96ece00c6eb18b4, type: 2}
+  value: MainMenuState

@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6138043fb61a91a4fbc50a250ec15e49, type: 3}
-  m_Name: AppManager
+  m_Script: {fileID: 11500000, guid: 53908245f24928b43a557b716d54880d, type: 3}
+  m_Name: PausingState
   m_EditorClassIdentifier: 
-  initialState: {fileID: 11400000, guid: e68266f1cdc00834c96ece00c6eb18b4, type: 2}
+  name: {fileID: 11400000, guid: 483261b84f3425d4f906eb02452b4e87, type: 2}
+  reachableStates: []
