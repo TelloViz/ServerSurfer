@@ -42,7 +42,7 @@ namespace Vast.StateMachine {
         private GUIContent[] GetCurrentStates() {
             GUIContent[] result = new GUIContent[this.stateMachine.States.Count];
             for (int i = 0; i < result.Length; i++) {
-                result[i] = new GUIContent(this.stateMachine.States[i].Name);
+                result[i] = new GUIContent(this.stateMachine.States[i].Name.Value);
             }
             return result;
         }

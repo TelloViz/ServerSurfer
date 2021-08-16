@@ -138,7 +138,7 @@ namespace Vast.StateMachine {
         /// <returns>True or False</returns>
         public bool ContainsState(string stateName) {
             for(int i = 0; i < States.Count; i++) {
-                if(States[i].Name == stateName) { return true; }
+                if(States[i].Name.name == stateName) { return true; }
             }
             return false;
         }
@@ -150,7 +150,7 @@ namespace Vast.StateMachine {
         public bool ContainsState(string stateName, out State foundState) {
             foundState = null;
             for(int i = 0; i < States.Count; i++) {
-                if(States[i].Name == stateName) {
+                if(States[i].Name.name == stateName) {
                     foundState = States[i];
                     break;
                 }

@@ -1,15 +1,16 @@
-﻿using System;
+﻿using SO.Variables;
+using System;
+using UnityEngine;
 
 namespace Vast.StateMachine {
     [Serializable]
-    public abstract class State {
-        private string name = String.Empty;
+    public abstract class State : ScriptableObject {
+        [SerializeField] private StringVariable name;
+
 
         #region Properties
-        public string Name {
-            get { return this.name; }
-            protected set { this.name = value; }
-        }
+        public StringVariable Name { get => name; set => name = value; }
+
         #endregion
 
         #region Class Methods

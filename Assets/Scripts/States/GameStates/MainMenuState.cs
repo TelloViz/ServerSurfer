@@ -1,15 +1,12 @@
 using System;
+using UnityEngine;
 using Vast.StateMachine;
 
 namespace States.GameStates
 {
-    [Serializable]
+    [CreateAssetMenu]
     public class MainMenuState : State
     {
-        MainMenuState()
-        {
-            Name = "MainMenuState";
-        }
         #region Class Methods
         public override void OnEnter() { }
         public override void OnExit() { }

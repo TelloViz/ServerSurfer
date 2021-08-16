@@ -6,6 +6,7 @@ using Vast.StateMachine;
 public class AppManager : ScriptableObject
 {
     [SerializeField] private StateMachine appStateMachine;
+    [SerializeField] private State initialState;
 
     public StateMachine AppStateMachine { get => appStateMachine; set => appStateMachine = value; }
 
@@ -19,6 +20,7 @@ public class AppManager : ScriptableObject
     private void OnEnable()
     {
         appStateMachine = new StateMachine();
+        appStateMachine.AddState(initialState);
     }
 
     #endregion
