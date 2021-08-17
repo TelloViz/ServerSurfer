@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: MainMenuState
   m_EditorClassIdentifier: 
   name: {fileID: 11400000, guid: 6866a12d832e124479a728ed93f760a8, type: 2}
-  reachableStates: []
+  appMgr: {fileID: 11400000, guid: 171642b5fc84da2458cf9d1e1e6dafcd, type: 2}
+  reachableStates:
+  - {fileID: 11400000, guid: e68266f1cdc00834c96ece00c6eb18b4, type: 2}
+  - {fileID: 11400000, guid: 3cdefe2ade11cc444a70bd34d994aec8, type: 2}
+  associatedSceneName: {fileID: 11400000, guid: 66b5a5e6d05270a41981bd68f05216e7, type: 2}

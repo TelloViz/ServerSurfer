@@ -8,10 +8,14 @@ namespace SO.States.GameStates
     public class PausingState : State
     {
         #region Class Methods
-        public override void OnEnter() { }
+        public override void OnEnter() 
+        {
+            LoadAssociatedScene();
+        }
         public override void OnExit() { }
         public override void Update() { }
         public override void FixedUpdate() { }
+
         #endregion
     }
 }

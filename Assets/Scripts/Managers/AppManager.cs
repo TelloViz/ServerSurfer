@@ -1,3 +1,4 @@
+using SO.States.GameStates;
 using System.Collections.Generic;
 using UnityEngine;
 using Vast.StateMachine;
@@ -6,14 +7,19 @@ using Vast.StateMachine;
 public class AppManager : ScriptableObject
 {
     [SerializeField] private StateMachine appStateMachine;
+    [SerializeField] private State initialState;
+    [SerializeField] private List<State> registeredStates;
 
     public StateMachine AppStateMachine { get => appStateMachine; set => appStateMachine = value; }
 
     #region Unity Methods
 
-    private void Awake()
+    private void OnEnable()
     {
         appStateMachine = new StateMachine();
+        appStateMachine.AddStates(registeredStates.ToArray());
+        appStateMachine.ChangeState(initialState);
+        
     }
 
     #endregion

@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edaabcf1821afc542b58441492337ed3, type: 3}
   m_Name: QuitState
   m_EditorClassIdentifier: 
-  name: {fileID: 0}
+  name: {fileID: 11400000, guid: 0705a5a833a35554abaac963c35e2a2f, type: 2}
+  appMgr: {fileID: 11400000, guid: 171642b5fc84da2458cf9d1e1e6dafcd, type: 2}
   reachableStates: []

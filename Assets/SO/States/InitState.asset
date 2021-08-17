@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c57d536098d9f784fa96108432745e68, type: 3}
   m_Name: InitState
   m_EditorClassIdentifier: 
-  name: {fileID: 0}
-  reachableStates: []
+  name: {fileID: 11400000, guid: b9dd3419b951ac64699064a580a9e6ce, type: 2}
+  appMgr: {fileID: 11400000, guid: 171642b5fc84da2458cf9d1e1e6dafcd, type: 2}
+  reachableStates:
+  - {fileID: 11400000, guid: 4c596ef72b90d3d4bb91f6fc98b597b6, type: 2}
+  associatedSceneName: {fileID: 11400000, guid: 0172998e330b18843a8f70716e709cf3, type: 2}

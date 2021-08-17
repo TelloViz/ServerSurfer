@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5036be5251e35f1429d5cc38b93f1317, type: 3}
-  m_Name: InitStateName
+  m_Name: GameOverSceneName
   m_EditorClassIdentifier: 
-  value: InitState
+  value: GameOverScene

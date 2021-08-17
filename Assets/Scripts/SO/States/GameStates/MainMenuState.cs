@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Vast.StateMachine;
 
 namespace SO.States.GameStates
@@ -8,10 +9,15 @@ namespace SO.States.GameStates
     public class MainMenuState : State
     {
         #region Class Methods
-        public override void OnEnter() { }
+        public override void OnEnter() 
+        {
+            LoadAssociatedScene();
+        }
         public override void OnExit() { }
         public override void Update() { }
         public override void FixedUpdate() { }
+
+        
         #endregion
     }
 }
