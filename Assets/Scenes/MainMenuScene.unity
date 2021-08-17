@@ -312,6 +312,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1579828845, guid: be91069c4cd1cff4d9623176c2d7a365, type: 3}
+      propertyPath: appManager
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
+    - target: {fileID: 1579828845, guid: be91069c4cd1cff4d9623176c2d7a365, type: 3}
+      propertyPath: responseState
+      value: 
+      objectReference: {fileID: 11400000, guid: 3cdefe2ade11cc444a70bd34d994aec8, type: 2}
+    - target: {fileID: 3499370131026403730, guid: be91069c4cd1cff4d9623176c2d7a365, type: 3}
+      propertyPath: appManager
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
+    - target: {fileID: 3499370131026403730, guid: be91069c4cd1cff4d9623176c2d7a365, type: 3}
+      propertyPath: responseState
+      value: 
+      objectReference: {fileID: 11400000, guid: e68266f1cdc00834c96ece00c6eb18b4, type: 2}
     - target: {fileID: 6869856083197410306, guid: be91069c4cd1cff4d9623176c2d7a365, type: 3}
       propertyPath: m_Name
       value: MainMenuTransitionHandler
