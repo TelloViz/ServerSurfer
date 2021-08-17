@@ -8,6 +8,7 @@ public class AppManager : ScriptableObject
 {
     [SerializeField] private StateMachine appStateMachine;
     [SerializeField] private State initialState;
+    [SerializeField] private State[] registeredStates;
 
     public StateMachine AppStateMachine { get => appStateMachine; set => appStateMachine = value; }
     public State InitialState { get => initialState; set => initialState = value; }
@@ -15,8 +16,18 @@ public class AppManager : ScriptableObject
 
     private void OnEnable()
     {
-        AppStateMachine.AddState(initialState);
-        AppStateMachine.ChangeState(initialState);
+        foreach (State state in registeredStates)
+        {
+            if(!AppStateMachine.ContainsState(state))
+            {
+                AppStateMachine.AddStates(registeredStates);
+            }
+        }
+        
+        if(AppStateMachine.ActiveState != initialState)
+        {
+            AppStateMachine.ChangeState(initialState);
+        }
     }
 }
 

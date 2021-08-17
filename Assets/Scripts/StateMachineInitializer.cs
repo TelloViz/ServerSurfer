@@ -16,17 +16,6 @@ public class StateMachineInitializer : MonoBehaviour
     {
         Debug.Log("StateMachineInitializer.Start()");
 
-
-        // If appManager has a list of registered states,
-        // then we will add them all to the machine
-        if (statesToRegister.Any<State>())
-        {
-            Debug.Log("StateMachineInitializer: There ARE states to register");
-            appManager.AppStateMachine.AddStates(statesToRegister.ToArray());
-
-            
-        }
-
         // Right now there is no initialization to be done
         // other than transitioning to the actual first state...
         if (associatedState.ReachableStates.Any())
