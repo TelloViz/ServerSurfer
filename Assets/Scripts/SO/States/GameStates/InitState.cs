@@ -11,6 +11,7 @@ namespace SO.States.GameStates
         #region Class Methods
         public override void OnEnter() 
         {
+            Debug.Log("InitState.OnEnter()");
             LoadAssociatedSceneAsync();
         }
         public override void OnExit() { }
