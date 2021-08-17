@@ -27,9 +27,9 @@ namespace Vast.StateMachine {
         public abstract void Update();
         public abstract void FixedUpdate();
 
-        virtual public void LoadAssociatedScene()
+        virtual public void LoadAssociatedSceneAsync()
         {
-            SceneManager.LoadScene(AssociatedSceneName.Value);
+            SceneManager.LoadSceneAsync(AssociatedSceneName.Value);
         }
 
         public void TransitionTo(State toState, List<State> reachables)

@@ -10,7 +10,7 @@ namespace SO.States.GameStates
         #region Class Methods
         public override void OnEnter() 
         {
-            LoadAssociatedScene();
+            LoadAssociatedSceneAsync();
         }
         public override void OnExit() { }
         public override void Update() { }
