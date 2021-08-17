@@ -17,7 +17,7 @@ namespace SO.States.GameStates
             }
             else if (Application.isEditor)
             {
-                LoadAssociatedSceneAsyncEditor();
+                OpenAssociatedSceneInEditor();
             }
         }
         public override void OnExit() 

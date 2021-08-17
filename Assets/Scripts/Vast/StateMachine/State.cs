@@ -34,9 +34,10 @@ namespace Vast.StateMachine {
             SceneManager.LoadSceneAsync(AssociatedSceneName.Value);
         }
 
-        virtual public void LoadAssociatedSceneAsyncEditor()
+        virtual public void OpenAssociatedSceneInEditor()
         {
-            EditorSceneManager.LoadSceneAsync(AssociatedSceneName.Value);
+            // Does nothing for now
+           // EditorSceneManager.OpenScene(AssociatedSceneName.Value);
         }
 
         public void TransitionTo(State toState, List<State> reachables)

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class QuitButtonResponse : MonoBehaviour
 {
-  public void Respond()
+    public void Respond()
     {
-
+        Debug.Log("Quitbutton responded to");
     }
 }
