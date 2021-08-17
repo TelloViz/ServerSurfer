@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: QuitState
   m_EditorClassIdentifier: 
   name: {fileID: 11400000, guid: 0705a5a833a35554abaac963c35e2a2f, type: 2}
-  appMgr: {fileID: 11400000, guid: 171642b5fc84da2458cf9d1e1e6dafcd, type: 2}
+  appMgr: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
   reachableStates: []
+  associatedSceneName: {fileID: 0}

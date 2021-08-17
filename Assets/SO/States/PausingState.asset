@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PausingState
   m_EditorClassIdentifier: 
   name: {fileID: 11400000, guid: 483261b84f3425d4f906eb02452b4e87, type: 2}
-  appMgr: {fileID: 11400000, guid: 171642b5fc84da2458cf9d1e1e6dafcd, type: 2}
+  appMgr: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
   reachableStates:
   - {fileID: 11400000, guid: e68266f1cdc00834c96ece00c6eb18b4, type: 2}
   - {fileID: 11400000, guid: 3cdefe2ade11cc444a70bd34d994aec8, type: 2}

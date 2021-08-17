@@ -13,10 +13,3 @@ MonoBehaviour:
   m_Name: AppManager
   m_EditorClassIdentifier: 
   initialState: {fileID: 11400000, guid: 0cc60b8250f64164e9611d314d46e899, type: 2}
-  registeredStates:
-  - {fileID: 11400000, guid: 0cc60b8250f64164e9611d314d46e899, type: 2}
-  - {fileID: 11400000, guid: 4c596ef72b90d3d4bb91f6fc98b597b6, type: 2}
-  - {fileID: 11400000, guid: e68266f1cdc00834c96ece00c6eb18b4, type: 2}
-  - {fileID: 11400000, guid: 28689f6b921e65048be278d92550fbad, type: 2}
-  - {fileID: 11400000, guid: 1f79aae3897320e45ad5e3d4a4b65c91, type: 2}
-  - {fileID: 11400000, guid: 3cdefe2ade11cc444a70bd34d994aec8, type: 2}

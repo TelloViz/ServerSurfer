@@ -152,8 +152,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a38a5cf9179e39945b31086a3a573ae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  appManager: {fileID: 11400000, guid: 171642b5fc84da2458cf9d1e1e6dafcd, type: 2}
+  appManager: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
   associatedState: {fileID: 11400000, guid: 0cc60b8250f64164e9611d314d46e899, type: 2}
+  statesToRegister:
+  - {fileID: 11400000, guid: 4c596ef72b90d3d4bb91f6fc98b597b6, type: 2}
+  - {fileID: 11400000, guid: e68266f1cdc00834c96ece00c6eb18b4, type: 2}
+  - {fileID: 11400000, guid: 28689f6b921e65048be278d92550fbad, type: 2}
+  - {fileID: 11400000, guid: 1f79aae3897320e45ad5e3d4a4b65c91, type: 2}
+  - {fileID: 11400000, guid: 3cdefe2ade11cc444a70bd34d994aec8, type: 2}
 --- !u!4 &2123915080
 Transform:
   m_ObjectHideFlags: 0

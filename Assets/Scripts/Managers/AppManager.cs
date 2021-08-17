@@ -8,26 +8,16 @@ public class AppManager : ScriptableObject
 {
     [SerializeField] private StateMachine appStateMachine;
     [SerializeField] private State initialState;
-    [SerializeField] private List<State> registeredStates;
 
     public StateMachine AppStateMachine { get => appStateMachine; set => appStateMachine = value; }
+    public State InitialState { get => initialState; set => initialState = value; }
 
-    #region Unity Methods
 
     private void OnEnable()
     {
-        appStateMachine = new StateMachine();
-        appStateMachine.AddStates(registeredStates.ToArray());
-        appStateMachine.ChangeState(initialState);
-        
+        AppStateMachine.AddState(initialState);
+        AppStateMachine.ChangeState(initialState);
     }
-
-    #endregion
-
-    #region Class Methods
-    #endregion
-
-
 }
 
 

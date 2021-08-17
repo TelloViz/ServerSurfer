@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GameOverState
   m_EditorClassIdentifier: 
   name: {fileID: 11400000, guid: 2f435e8b378247e43ad33d2a4aede3ae, type: 2}
-  appMgr: {fileID: 11400000, guid: 171642b5fc84da2458cf9d1e1e6dafcd, type: 2}
+  appMgr: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
   reachableStates: []
   associatedSceneName: {fileID: 11400000, guid: 87e7dffafa52e6c4f929a436ed5d4c9c, type: 2}

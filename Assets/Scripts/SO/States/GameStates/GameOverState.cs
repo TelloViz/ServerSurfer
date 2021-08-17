@@ -8,7 +8,10 @@ namespace SO.States.GameStates
     public class GameOverState : State
     {
         #region Class Methods
-        public override void OnEnter() { }
+        public override void OnEnter() 
+        {
+            LoadAssociatedSceneAsync();
+        }
         public override void OnExit() { }
         public override void Update() { }
         public override void FixedUpdate() { }
