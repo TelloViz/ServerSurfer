@@ -1,4 +1,5 @@
 using System;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Vast.StateMachine;
@@ -12,7 +13,15 @@ namespace SO.States.GameStates
         public override void OnEnter() 
         {
             Debug.Log("InitState.OnEnter()");
-            LoadAssociatedSceneAsync();
+            if(Application.isPlaying)
+            {
+                LoadAssociatedSceneAsync();
+            }
+            else if(Application.isEditor)
+            {
+                LoadAssociatedSceneAsyncEditor();
+            }
+            
         }
         public override void OnExit() { }
         public override void Update() { }

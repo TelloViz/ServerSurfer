@@ -10,7 +10,14 @@ namespace SO.States.GameStates
         #region Class Methods
         public override void OnEnter() 
         {
-            LoadAssociatedSceneAsync();
+            if (Application.isPlaying)
+            {
+                LoadAssociatedSceneAsync();
+            }
+            else if (Application.isEditor)
+            {
+                LoadAssociatedSceneAsyncEditor();
+            }
         }
         public override void OnExit() { }
         public override void Update() { }

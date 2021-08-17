@@ -1,6 +1,7 @@
 ﻿using SO.Variables;
 using System;
 using System.Collections.Generic;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -31,6 +32,11 @@ namespace Vast.StateMachine {
         {
             Debug.Log("State.LoadAssociatedSceneAsync()");
             SceneManager.LoadSceneAsync(AssociatedSceneName.Value);
+        }
+
+        virtual public void LoadAssociatedSceneAsyncEditor()
+        {
+            EditorSceneManager.LoadSceneAsync(AssociatedSceneName.Value);
         }
 
         public void TransitionTo(State toState, List<State> reachables)
