@@ -1,0 +1,11 @@
+.score-label {
+    font-size: 51px;
+    color: rgb(255, 221, 0);
+    -unity-font-style: normal;
+}
+
+.score-value-label {
+    color: rgb(255, 146, 0);
+    font-size: 51px;
+    -unity-font-style: normal;
+}

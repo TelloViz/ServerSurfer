@@ -29,6 +29,7 @@ namespace Vast.StateMachine {
 
         virtual public void LoadAssociatedSceneAsync()
         {
+            Debug.Log("State.LoadAssociatedSceneAsync()");
             SceneManager.LoadSceneAsync(AssociatedSceneName.Value);
         }
 

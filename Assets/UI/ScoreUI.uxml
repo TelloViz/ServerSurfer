@@ -1,9 +1,10 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="PlayUI.uss" />
     <ui:VisualElement name="screen" style="flex-grow: 1;">
-        <ui:VisualElement name="screen-top" style="height: 25%;">
-            <ui:VisualElement name="score-container" style="position: absolute; left: 2.5%; top: 15%; justify-content: space-between; align-items: center; flex-direction: row; flex-grow: 1; font-size: 38px;">
-                <ui:Label text="Score:" display-tooltip-when-elided="true" name="score-label" style="font-size: 37px; color: rgb(0, 255, 28);" />
-                <ui:Label text="0" display-tooltip-when-elided="true" name="score-value-label" style="color: rgb(255, 0, 0);" />
+        <ui:VisualElement name="screen-top" style="height: 25%; opacity: 0.55;">
+            <ui:VisualElement name="score-container" style="position: absolute; left: 2.5%; top: 10%; justify-content: center; align-items: center; flex-direction: row; flex-grow: 1; font-size: 38px;">
+                <ui:Label text="Score:" display-tooltip-when-elided="true" name="score-label" class="score-label" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="score-value-label" class="score-value-label" />
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="screen-mid" style="height: 50%;" />
