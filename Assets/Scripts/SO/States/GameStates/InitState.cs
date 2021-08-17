@@ -1,7 +1,5 @@
-using System;
-using UnityEditor.SceneManagement;
+
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using Vast.StateMachine;
 
 namespace SO.States.GameStates

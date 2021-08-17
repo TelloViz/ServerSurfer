@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using Vast.StateMachine;
 
@@ -10,14 +9,7 @@ namespace SO.States.GameStates
         #region Class Methods
         public override void OnEnter() 
         {
-            if (Application.isPlaying)
-            {
-                LoadAssociatedSceneAsync();
-            }
-            else if (Application.isEditor)
-            {
-                OpenAssociatedSceneInEditor();
-            }
+            Application.Quit();
         }
         public override void OnExit() { }
         public override void Update() { }
