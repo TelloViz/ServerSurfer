@@ -123,111 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &431106662
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 431106663}
-  - component: {fileID: 431106666}
-  m_Layer: 0
-  m_Name: PausingTransitionHandler
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &431106663
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431106662}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &431106666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431106662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 334d7d5e60029894eb57699892d4b1b5, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: b439cb2a-0a05-4263-bc3e-dd11a12487ad
-    m_ActionName: PlayingScene/Lift
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 407aa6c5-b600-476d-a905-3021356a4004
-    m_ActionName: PlayingScene/Glide
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: fe286289-8a5a-41e0-9f0a-772a655b65ef
-    m_ActionName: PlayingScene/Shift_Left
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 776ffe74-7af0-4757-9c50-9c56085534be
-    m_ActionName: PlayingScene/Shift_Right
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: a2b7a44b-a25e-49e5-9617-37257a00ffcf
-    m_ActionName: PlayingScene/Pause[/Keyboard/p]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 514f27cad99b06d41b0b192db4701544, type: 2}
-        m_TargetAssemblyTypeName: UnPauseResponse, Assembly-CSharp
-        m_MethodName: Respond
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 25c09903-5ceb-4688-879f-366e76064c28
-    m_ActionName: New action map/New action
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 1935615c-5df8-4dcf-aafd-c5995c00f7be
-    m_ActionName: MainMenuScene/ClickStart[/Mouse/leftButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 3ca7d7d2-f32b-4f32-964e-8c6b372ea978
-    m_ActionName: MainMenuScene/ClickQuit[/Mouse/leftButton]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: PausingScene
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 891394800}
 --- !u!1 &685787218
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,7 +188,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &685787222
 MonoBehaviour:
@@ -460,7 +355,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2127663875
 GameObject:
@@ -543,5 +438,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
