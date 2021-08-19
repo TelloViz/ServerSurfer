@@ -6,6 +6,7 @@
                 <ui:Label text="Score:" display-tooltip-when-elided="true" name="score-label" class="score-label" />
                 <ui:Label text="0" display-tooltip-when-elided="true" name="score-value-label" class="score-value-label" />
             </ui:VisualElement>
+            <ui:Button text="&#10;" display-tooltip-when-elided="true" name="pause-button" style="left: 90%; width: 3%; height: 30px; top: 5px; background-image: url(&apos;/Assets/Artwork/pausesymbol.png&apos;); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(255, 157, 0);" />
         </ui:VisualElement>
         <ui:VisualElement name="screen-mid" style="height: 50%;" />
         <ui:VisualElement name="screen-bottom" style="height: 25%;" />

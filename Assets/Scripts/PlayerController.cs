@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] GameEvent pausePressedGameEvent;
+
     
     public void PrintMessage()
     {
