@@ -215,6 +215,14 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 25c09903-5ceb-4688-879f-366e76064c28
     m_ActionName: New action map/New action
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1935615c-5df8-4dcf-aafd-c5995c00f7be
+    m_ActionName: MainMenuScene/ClickStart[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3ca7d7d2-f32b-4f32-964e-8c6b372ea978
+    m_ActionName: MainMenuScene/ClickQuit[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: PausingScene
@@ -255,7 +263,7 @@ Camera:
   m_GameObject: {fileID: 2127663875}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 3
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2

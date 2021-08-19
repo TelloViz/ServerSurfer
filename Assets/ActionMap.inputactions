@@ -163,6 +163,52 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "MainMenuScene",
+            "id": "fb23658d-81a6-4889-9aab-727de1be7190",
+            "actions": [
+                {
+                    "name": "ClickStart",
+                    "type": "Button",
+                    "id": "1935615c-5df8-4dcf-aafd-c5995c00f7be",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ClickQuit",
+                    "type": "Button",
+                    "id": "3ca7d7d2-f32b-4f32-964e-8c6b372ea978",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "39fff02a-c8a8-4341-bd1b-cddf0702d748",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "58d8bd99-fd44-4dc7-b677-b973a26e2092",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickQuit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

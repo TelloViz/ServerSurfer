@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vast.StateMachine;
 
-public class StartButtonResponse : MonoBehaviour
+[CreateAssetMenu]
+public class StartButtonResponse : ScriptableObject
 {
     [SerializeField] private AppManager appManager;
     [SerializeField] private State responseState;

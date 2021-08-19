@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vast.StateMachine;
 
-public class QuitButtonResponse : MonoBehaviour
+[CreateAssetMenu]
+public class QuitButtonResponse : ScriptableObject
 {
     [SerializeField] private AppManager appManager;
     [SerializeField] private State responseState;
