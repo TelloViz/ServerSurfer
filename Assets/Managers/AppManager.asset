@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6138043fb61a91a4fbc50a250ec15e49, type: 3}
   m_Name: AppManager
   m_EditorClassIdentifier: 
-  initialState: {fileID: 11400000, guid: 0cc60b8250f64164e9611d314d46e899, type: 2}
+  initialState: {fileID: 11400000, guid: 4c596ef72b90d3d4bb91f6fc98b597b6, type: 2}
   registeredStates:
   - {fileID: 11400000, guid: 0cc60b8250f64164e9611d314d46e899, type: 2}
   - {fileID: 11400000, guid: 4c596ef72b90d3d4bb91f6fc98b597b6, type: 2}

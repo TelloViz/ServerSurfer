@@ -21,8 +21,8 @@ public class StateMachineInitializer : MonoBehaviour
         if (associatedState.ReachableStates.Any())
         {
             Debug.Log("There is a reachable state to transition to from InitState \n State Reachable: " + associatedState.ReachableStates.First<State>().ToString());
-       
-            associatedState.TransitionTo(associatedState.ReachableStates.First<State>(), associatedState.ReachableStates);
+
+            appManager.AppStateMachine.ChangeState(associatedState.ReachableStates.First<State>());
         }
     }
 
