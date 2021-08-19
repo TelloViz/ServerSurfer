@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vast.StateMachine;
 
-public class PauseResponse : MonoBehaviour
+[CreateAssetMenu]
+public class PauseResponse : ScriptableObject
 {
     [SerializeField] private AppManager appManager;
     [SerializeField] private State responseState;

@@ -136,6 +136,33 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "PausingScene",
+            "id": "03b14eb5-636a-424c-8a9d-84663c004dcc",
+            "actions": [
+                {
+                    "name": "UnPause",
+                    "type": "Button",
+                    "id": "25c09903-5ceb-4688-879f-366e76064c28",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aa57b109-445f-486c-a2ce-44a55c3be244",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UnPause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
