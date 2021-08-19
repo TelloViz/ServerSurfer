@@ -13,7 +13,7 @@ public class ResumeButtonResponse : ScriptableObject
     [SerializeField] private State responseState;
     public void Respond()
     {
-        Debug.Log("QuitButton responded to");
+        Debug.Log("Resume Button responded to");
         if (appManager.AppStateMachine.ContainsState(responseState))
         {
             appManager.AppStateMachine.ChangeState(responseState);

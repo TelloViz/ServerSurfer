@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using Vast.StateMachine;
 
@@ -10,6 +9,7 @@ public class PauseResponse : ScriptableObject
     [SerializeField] private State responseState;
     public void Respond()
     {
+        // TODO currently 3 different things respond to this as I can see thsi message printed 3 times in a row every time I click pause
         Debug.Log("PausePressed responded to");
         if (appManager.AppStateMachine.ContainsState(responseState))
         {

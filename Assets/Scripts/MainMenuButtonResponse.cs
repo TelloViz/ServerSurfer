@@ -13,7 +13,7 @@ public class MainMenuButtonResponse : ScriptableObject
     [SerializeField] private State responseState;
     public void Respond()
     {
-        Debug.Log("StartButton responded to");
+        Debug.Log("Main Menu Button responded to");
         if(appManager.AppStateMachine.ContainsState(responseState))
         {
             appManager.AppStateMachine.ChangeState(responseState);
