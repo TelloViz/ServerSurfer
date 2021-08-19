@@ -1,3 +1,8 @@
+/* This is an asset derived from the abstract State SO. 
+ * This file gives the ability to specify unique attributes as well as set its own Create asset menu entry*/
+
+// This state represents the last state the machine enters/exits. This is the Quit State.
+
 using UnityEngine;
 using Vast.StateMachine;
 

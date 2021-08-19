@@ -1,3 +1,5 @@
+/* This file is currently unused. */
+
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour

@@ -1,4 +1,9 @@
-﻿using SO.Variables;
+﻿/* This is the abstract State in which all game states derive.
+ * Originally written by Vast, modified by Tello- */
+
+// TODO clean up some artifact code and other redundancies 
+
+using SO.Variables;
 using System;
 using System.Collections.Generic;
 using UnityEngine;

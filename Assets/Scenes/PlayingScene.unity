@@ -216,7 +216,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1400164369}
   - component: {fileID: 1400164368}
-  - component: {fileID: 1400164367}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -224,19 +223,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1400164367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1400164366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3429478dace7b2947b864344c2384a28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pausePressedGameEvent: {fileID: 11400000, guid: b907342209a60e54791a554ade50bed6, type: 2}
 --- !u!114 &1400164368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,7 +250,7 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1400164367}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
@@ -280,7 +266,7 @@ MonoBehaviour:
     m_ActionName: PlayingScene/Lift
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1400164367}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
@@ -296,7 +282,7 @@ MonoBehaviour:
     m_ActionName: PlayingScene/Glide
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1400164367}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
@@ -312,7 +298,7 @@ MonoBehaviour:
     m_ActionName: PlayingScene/Shift_Left
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1400164367}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.Component, UnityEngine
         m_MethodName: BroadcastMessage
         m_Mode: 5
@@ -346,6 +332,14 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 25c09903-5ceb-4688-879f-366e76064c28
     m_ActionName: PausingScene/UnPause[/Keyboard/p]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1935615c-5df8-4dcf-aafd-c5995c00f7be
+    m_ActionName: MainMenuScene/ClickStart[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3ca7d7d2-f32b-4f32-964e-8c6b372ea978
+    m_ActionName: MainMenuScene/ClickQuit[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: PlayingScene

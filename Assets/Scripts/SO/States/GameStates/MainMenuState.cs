@@ -1,3 +1,7 @@
+/* This is an asset derived from the abstract State SO. 
+ * This file gives the ability to specify unique attributes as well as set its own Create asset menu entry*/
+
+// This state represents the Main menu of the game
 
 using UnityEngine;
 using Vast.StateMachine;

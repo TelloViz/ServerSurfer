@@ -1,4 +1,5 @@
-
+/* This state is no longer used. It was the initial state the machine went to first always. 
+ currently, the machine just goes straight into MainMenuState.*/
 using UnityEngine;
 using Vast.StateMachine;
 
