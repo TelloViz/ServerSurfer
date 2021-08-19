@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UIElements;
 
-public class UIHandler : MonoBehaviour
+public class MainMenuUIHandler : MonoBehaviour
 {
     public UIDocument UIDocument;
     

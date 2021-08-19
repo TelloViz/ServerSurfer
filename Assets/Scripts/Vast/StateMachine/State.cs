@@ -39,6 +39,14 @@ namespace Vast.StateMachine {
            // EditorSceneManager.OpenScene(AssociatedSceneName.Value);
         }
 
+        virtual public void DisableSceneObjects()
+        {
+            foreach(GameObject obj in SceneManager.GetSceneByName(associatedSceneName.Value).GetRootGameObjects())
+            {
+                obj.SetActive(false);
+            }
+        }
+
         public void TransitionTo(State toState, List<State> reachables)
         {
             if (reachables.Contains(toState))

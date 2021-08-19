@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Background
+  - UI
+  - TransitionHandler
   layers:
   - Default
   - TransparentFX
@@ -11,16 +14,16 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - MainMenuBackground
+  - Player
+  - MainMenuUI
+  - PlayingUI
+  - PausingUI
+  - GameOverUI
+  - PlayingBackground
+  - PausingBackground
+  - GameOverBackground
+  - TransitionHandler
   - 
   - 
   - 
@@ -40,4 +43,34 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1171995905
+    locked: 0
+  - name: Player
+    uniqueID: 3009501757
+    locked: 0
+  - name: MainMenuUI
+    uniqueID: 1462841577
+    locked: 0
+  - name: PlayingUI
+    uniqueID: 619236379
+    locked: 0
+  - name: PausingUI
+    uniqueID: 1057077197
+    locked: 0
+  - name: GameOverUI
+    uniqueID: 2002518619
+    locked: 0
+  - name: MainMenuBackground
+    uniqueID: 4269678599
+    locked: 0
+  - name: PlayingBackground
+    uniqueID: 3813975129
+    locked: 0
+  - name: PausingBackground
+    uniqueID: 11085745
+    locked: 0
+  - name: GameOverBackground
+    uniqueID: 385107751
     locked: 0
