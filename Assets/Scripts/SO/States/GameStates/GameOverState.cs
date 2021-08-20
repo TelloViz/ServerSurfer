@@ -23,7 +23,10 @@ namespace SO.States.GameStates
                 OpenAssociatedSceneInEditor();
             }
         }
-        public override void OnExit() { }
+        public override void OnExit() 
+        {
+            DisableSceneObjects();
+        }
         public override void Update() { }
         public override void FixedUpdate() { }
         #endregion
