@@ -6,7 +6,7 @@
                 <ui:Label text="Score:" display-tooltip-when-elided="true" name="score-label" class="score-label" />
                 <ui:Label text="0" display-tooltip-when-elided="true" name="score-value-label" class="score-value-label" />
             </ui:VisualElement>
-            <ui:Button text="&#10;" display-tooltip-when-elided="true" name="pause-button" style="left: 90%; width: 3%; height: 30px; top: 5px; background-image: url(&apos;/Assets/Artwork/pausesymbol.png&apos;); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(255, 157, 0);" />
+            <ui:Button text="||" display-tooltip-when-elided="true" name="pause-button" style="left: 90%; width: 3%; height: 30px; top: 5px; background-image: url(&apos;/Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_2.png&apos;); -unity-background-scale-mode: stretch-to-fill; -unity-background-image-tint-color: rgb(255, 37, 0); -unity-slice-left: -112; -unity-slice-top: -311; -unity-slice-right: -258; -unity-slice-bottom: -316; align-items: center; justify-content: center; font-size: 17px; -unity-font-style: bold; color: rgba(32, 255, 0, 255);" />
         </ui:VisualElement>
         <ui:VisualElement name="screen-mid" style="height: 50%;" />
         <ui:VisualElement name="screen-bottom" style="height: 25%;" />
