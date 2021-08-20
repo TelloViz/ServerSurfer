@@ -1,5 +1,5 @@
 .score-label {
-    font-size: 51px;
+    font-size: 28px;
     color: rgb(255, 221, 0);
     -unity-font-style: normal;
 }
