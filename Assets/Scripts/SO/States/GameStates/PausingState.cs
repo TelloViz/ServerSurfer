@@ -25,7 +25,7 @@ namespace SO.States.GameStates
         }
         public override void OnExit() 
         {
-            DisableSceneObjects();
+            //DisableSceneObjects();
         }
         public override void Update() { }
         public override void FixedUpdate() { }

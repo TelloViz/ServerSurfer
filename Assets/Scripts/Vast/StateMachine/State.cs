@@ -24,6 +24,7 @@ namespace Vast.StateMachine {
         public StringVariable AssociatedSceneName { get => associatedSceneName; set => associatedSceneName = value; }
         public List<State> ReachableStates { get => reachableStates; set => reachableStates = value; }
 
+
         #endregion
 
         #region Class Methods

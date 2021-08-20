@@ -768,8 +768,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   appManager: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
-  startButtonClickedEvent: {fileID: 0}
-  quitButtonClickedEvent: {fileID: 0}
+  startButtonClickedEvent: {fileID: 11400000, guid: 913fee4c62cab3640bcd047e0cfa62c3, type: 2}
+  quitButtonClickedEvent: {fileID: 11400000, guid: 040cf29d462f86b4798c83a401f95046, type: 2}
 --- !u!114 &486460793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1132,7 +1132,7 @@ PrefabInstance:
     - target: {fileID: 11400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 679887390}
+      objectReference: {fileID: 486460792}
     - target: {fileID: 11400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
@@ -1306,7 +1306,6 @@ GameObject:
   m_Component:
   - component: {fileID: 679887388}
   - component: {fileID: 679887389}
-  - component: {fileID: 679887390}
   m_Layer: 5
   m_Name: MenuManager
   m_TagString: Untagged
@@ -1341,21 +1340,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initiallyOpen: {fileID: 1235861152}
---- !u!114 &679887390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 679887387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 493f95e117e3b044da500a534fb4566b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  appManager: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
-  startButtonClickedEvent: {fileID: 11400000, guid: 913fee4c62cab3640bcd047e0cfa62c3, type: 2}
-  quitButtonClickedEvent: {fileID: 11400000, guid: 040cf29d462f86b4798c83a401f95046, type: 2}
 --- !u!1 &720367737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2004,7 +1988,7 @@ PrefabInstance:
     - target: {fileID: 11400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 679887390}
+      objectReference: {fileID: 486460792}
     - target: {fileID: 11400004, guid: 05a81c3d5091440058129444d28322f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
