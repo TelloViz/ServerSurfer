@@ -14,6 +14,7 @@ public class PausingUIHandler : MonoBehaviour
     private Button pausingMainMenuButton;
 
     [SerializeField] private GameEvent resumeButtonClickEvent;
+    [SerializeField] private GameEvent unPausePressEvent;
     [SerializeField] private GameEvent mainMenuButtonClickEvent;
     [SerializeField] private GameEvent quitButtonClickEvent;
 
