@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="screen" style="flex-grow: 1; align-items: center;">
+        <ui:VisualElement name="center-column" style="height: 100%; width: 50%;">
+            <ui:VisualElement name="title-container" style="align-items: center; flex-grow: 1;">
+                <ui:Label text="Settings&#10;" display-tooltip-when-elided="true" name="settings-label" style="font-size: 115px; background-image: url(&apos;/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/border_Rounded_CC.png&apos;); -unity-background-scale-mode: stretch-to-fill; border-left-width: 36px; border-right-width: 36px; border-top-width: 36px; border-bottom-width: 36px; top: 10%;" />
+                <ui:Label text="This is the settings screen....&#10;more coming soon..." display-tooltip-when-elided="true" name="settings-description-label" style="font-size: 64px; top: 241px; -unity-text-align: upper-center;" />
+                <ui:Button text="Main Menu" display-tooltip-when-elided="true" name="main-menu-button" style="top: 40%; width: 200px; height: 100px; font-size: 32px; -unity-font-style: bold;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

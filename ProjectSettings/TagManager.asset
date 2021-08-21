@@ -24,8 +24,8 @@ TagManager:
   - PausingBackground
   - GameOverBackground
   - TransitionHandler
-  - 
-  - 
+  - SettingsUI
+  - SettingsBackground
   - 
   - 
   - 

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25f0fa3935e6d5a42b5601806105b97d, type: 3}
+  m_Name: SettingsMenuState
+  m_EditorClassIdentifier: 
+  name: {fileID: 11400000, guid: 4ffcfd806fd8b2a4fa0d91723802e69a, type: 2}
+  appMgr: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
+  reachableStates:
+  - {fileID: 11400000, guid: 4c596ef72b90d3d4bb91f6fc98b597b6, type: 2}
+  associatedSceneName: {fileID: 11400000, guid: 4c5810778d189504a8b0f134e2075cd6, type: 2}
