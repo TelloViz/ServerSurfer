@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
-public class GameEventRaiser : MonoBehaviour
+public class MainMenuButtonEventRaiser : MonoBehaviour
 {
     [SerializeField] AppManager appManager;
     [SerializeField] GameEvent startButtonClickedEvent;
