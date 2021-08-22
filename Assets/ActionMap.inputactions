@@ -50,7 +50,7 @@
                 {
                     "name": "",
                     "id": "f6045acc-7df2-4bf4-b812-6cd064e86655",
-                    "path": "",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -61,7 +61,7 @@
                 {
                     "name": "",
                     "id": "6fdb8bce-40d5-481b-a408-6b4a64d89541",
-                    "path": "",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -72,7 +72,18 @@
                 {
                     "name": "",
                     "id": "61e5155b-c318-45c8-9d43-2e919217ecdf",
-                    "path": "",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lift",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9e429399-6f9e-461c-81f6-4b5eedf5a2cb",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -83,7 +94,29 @@
                 {
                     "name": "",
                     "id": "b2ce8415-76f6-43df-be8b-8b1dc1757752",
-                    "path": "",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Glide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05464467-882f-49d4-992f-39fffa492620",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Glide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f683c489-36e6-438e-bca5-bf64d9f3cca9",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

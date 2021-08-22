@@ -240,8 +240,8 @@ MonoBehaviour:
   Response:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3af2ef80be314f24c8f434e092235dc5, type: 2}
-        m_TargetAssemblyTypeName: MainMenuButtonResponse, Assembly-CSharp
+      - m_Target: {fileID: 11400000, guid: f542e8218f99deb478b5f7f00d92a652, type: 2}
+        m_TargetAssemblyTypeName: Responses.ButtonResponse, Assembly-CSharp
         m_MethodName: Respond
         m_Mode: 1
         m_Arguments:

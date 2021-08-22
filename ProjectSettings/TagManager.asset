@@ -44,17 +44,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 1171995905
-    locked: 0
   - name: Player
     uniqueID: 3009501757
     locked: 0
-  - name: MainMenuUI
-    uniqueID: 1462841577
-    locked: 0
   - name: PlayingUI
     uniqueID: 619236379
+    locked: 0
+  - name: PlayingBackground
+    uniqueID: 3813975129
+    locked: 0
+  - name: Background
+    uniqueID: 1171995905
+    locked: 0
+  - name: MainMenuUI
+    uniqueID: 1462841577
     locked: 0
   - name: PausingUI
     uniqueID: 1057077197
@@ -64,9 +67,6 @@ TagManager:
     locked: 0
   - name: MainMenuBackground
     uniqueID: 4269678599
-    locked: 0
-  - name: PlayingBackground
-    uniqueID: 3813975129
     locked: 0
   - name: PausingBackground
     uniqueID: 11085745
