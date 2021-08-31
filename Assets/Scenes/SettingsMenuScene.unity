@@ -359,6 +359,7 @@ GameObject:
   - component: {fileID: 1525329178}
   - component: {fileID: 1525329177}
   - component: {fileID: 1525329176}
+  - component: {fileID: 1525329179}
   m_Layer: 5
   m_Name: SettingsMenu_UIDocument
   m_TagString: Untagged
@@ -421,3 +422,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1525329179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525329175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d15c17e202343ee448e721ff2eed7674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIDocument: {fileID: 1525329177}
+  mainMenubuttonClickEvent: {fileID: 11400000, guid: 8794a948358b07d40975a6f11becf5fc, type: 2}
