@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9a8004f32f1e934990c6011ccde1749, type: 3}
+  m_Name: SettingsButtonResponse_MainMenu
+  m_EditorClassIdentifier: 
+  appManager: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
+  responseState: {fileID: 11400000, guid: ec86c8b3bf89fba419f89418fef5a2bd, type: 2}
