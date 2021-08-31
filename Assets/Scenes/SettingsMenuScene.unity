@@ -215,6 +215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399922725}
+  - component: {fileID: 399922726}
   - component: {fileID: 399922724}
   m_Layer: 0
   m_Name: EventSystem
@@ -239,8 +240,8 @@ MonoBehaviour:
   Response:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3af2ef80be314f24c8f434e092235dc5, type: 2}
-        m_TargetAssemblyTypeName: MainMenuButtonResponse, Assembly-CSharp
+      - m_Target: {fileID: 11400000, guid: f542e8218f99deb478b5f7f00d92a652, type: 2}
+        m_TargetAssemblyTypeName: Responses.ButtonResponse, Assembly-CSharp
         m_MethodName: Respond
         m_Mode: 1
         m_Arguments:
@@ -265,6 +266,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &399922726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399922723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae3a64d125755a428b137ad1b44f449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appManager: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
+  mainMenuButtonClickedEvent: {fileID: 11400000, guid: 8794a948358b07d40975a6f11becf5fc, type: 2}
 --- !u!1 &969889468
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,4 +450,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UIDocument: {fileID: 1525329177}
+<<<<<<< HEAD
   mainMenubuttonClickEvent: {fileID: 11400000, guid: 8794a948358b07d40975a6f11becf5fc, type: 2}
+=======
+  mainMenuButtonClickedEvent: {fileID: 11400000, guid: 8794a948358b07d40975a6f11becf5fc, type: 2}
+>>>>>>> main
