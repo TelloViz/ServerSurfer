@@ -450,8 +450,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UIDocument: {fileID: 1525329177}
-<<<<<<< HEAD
   mainMenubuttonClickEvent: {fileID: 11400000, guid: 8794a948358b07d40975a6f11becf5fc, type: 2}
-=======
-  mainMenuButtonClickedEvent: {fileID: 11400000, guid: 8794a948358b07d40975a6f11becf5fc, type: 2}
->>>>>>> main
