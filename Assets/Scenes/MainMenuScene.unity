@@ -771,9 +771,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   appManager: {fileID: 11400000, guid: 7e3a1f5a652167d408b90374323ef817, type: 2}
-  startButtonClickedEvent: {fileID: 11400000, guid: 913fee4c62cab3640bcd047e0cfa62c3, type: 2}
-  settingsMenuButtonClickedEvent: {fileID: 11400000, guid: d7610dbc0755b974cad209e9f153b550, type: 2}
-  quitButtonClickedEvent: {fileID: 11400000, guid: 040cf29d462f86b4798c83a401f95046, type: 2}
+  startButtonClicked: {fileID: 11400000, guid: 913fee4c62cab3640bcd047e0cfa62c3, type: 2}
+  settingsButtonClicked: {fileID: 11400000, guid: d7610dbc0755b974cad209e9f153b550, type: 2}
+  quitButtonClicked: {fileID: 11400000, guid: 040cf29d462f86b4798c83a401f95046, type: 2}
 --- !u!114 &486460793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -819,8 +819,8 @@ MonoBehaviour:
   Response:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 9db47d8b4fd24604f8fc8a23a214ac0d, type: 2}
-        m_TargetAssemblyTypeName: QuitButtonResponse, Assembly-CSharp
+      - m_Target: {fileID: 11400000, guid: 6885c116213398742b07b7033a3b4ddd, type: 2}
+        m_TargetAssemblyTypeName: Responses.ButtonResponse, Assembly-CSharp
         m_MethodName: Respond
         m_Mode: 1
         m_Arguments:
@@ -847,8 +847,8 @@ MonoBehaviour:
   Response:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 9d4e17cb079b59b40a6c93e578d77f6f, type: 2}
-        m_TargetAssemblyTypeName: StartButtonResponse, Assembly-CSharp
+      - m_Target: {fileID: 11400000, guid: 13ee2bc6ed9ab89408678ed1689c71fd, type: 2}
+        m_TargetAssemblyTypeName: Responses.ButtonResponse, Assembly-CSharp
         m_MethodName: Respond
         m_Mode: 1
         m_Arguments:
@@ -875,8 +875,8 @@ MonoBehaviour:
   Response:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: aaf4dae376957474692f1c09af90705d, type: 2}
-        m_TargetAssemblyTypeName: MainMenuToSettingsButtonResponse, Assembly-CSharp
+      - m_Target: {fileID: 11400000, guid: d6c15ba4f09018148ac9cdf15f9c8284, type: 2}
+        m_TargetAssemblyTypeName: Responses.ButtonResponse, Assembly-CSharp
         m_MethodName: Respond
         m_Mode: 1
         m_Arguments:
